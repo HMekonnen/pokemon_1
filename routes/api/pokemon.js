@@ -4,7 +4,7 @@ const pokemon = require("../../Pokemon")
 
 
 //test run
-router.get('/poki',(req,res)=>{
+router.get('/pokemon',(req,res)=>{
     res.status(200).json({pokemon});
 })
 
